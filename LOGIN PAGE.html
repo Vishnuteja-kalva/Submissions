@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="Stylesheet" href="LOGIN PAGE.css">
+    </head>
+    <body>
+        <form>
+            <div class = "login-container">
+                <img src ="https://logos-world.net/wp-content/uploads/2020/04/Instagram-Logo-2015-2016.png" alt="instagram">
+                <br>
+                <div class = "log-block">
+                    <h3>Username*</h3>
+                    <input type="text" placeholder="Enter Username" id="User" required>
+                    <h3>Password*</h3>
+                    <input type="password"  placeholder="Enter Password" id="Pass" required>
+                    <br><br>
+                    <label> <input type="checkbox"  onclick="Show()"><span style="font-size: 110%;">Show Password</span></label>
+                    <br><br>
+                    <button type="button" onclick="validateLogin()"><span style= "font-family: 'Times New Roman', Times, serif">LOGIN</span></button>
+                    <br>
+                    <p align = "center">Forget <a href = "#">Password ?</a></p>
+                    <p align = "center">Don't Have an Account ? <a href = "#">Sign up</a></p> <br>
+                    <div class = "lang">
+                        <p align = "center"><a href ="#">తెలుగు</a></p>
+                        <p align = "center"><a href ="#"> हिन्दी </a></p>
+                        <p align = "center"><a href ="#">தமிழ் </a></p>
+                        <p align = "center"><a href ="#">മലയാളം </a></p>
+                    </div>  
+                </div>
+            </div>
+        </form>
+       <script src="LOGIN PAGE.js"></script>
+        
+    </body>
+</html>

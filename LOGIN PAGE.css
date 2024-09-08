@@ -1,0 +1,90 @@
+body{
+    background-image:URL("https://i.pinimg.com/originals/ea/89/45/ea8945b986e784d57c11ba50839b4f12.gif");
+    background-color: #8f8e8e;
+    background-repeat: repeat; 
+    background-size:contain;  
+    background-size: 33%;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.login-container{
+    background-color: white;
+    border-style:dotted;
+    display:contents;
+    width:fit-content; 
+}
+form {
+    border:2px solid rgb(rgb(88, 86, 86), green, blue);
+    border-radius: 10px;
+    border-style:outset;
+    width:fit-content; 
+    background-color: white;
+    padding: 0px 20px;
+    margin: 130px;
+    margin-left:540px ;
+    margin-top:50px;
+
+}
+
+.login-container img{
+    height: 180px;
+    width: 400px;
+    }
+.login-container input[type=text],[type=password]{
+    width :90%;
+    height: 30px;
+    border-color:darkgrey;
+    border-radius: 20px;
+    padding-left: 5%;
+}
+.login-container text{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 2%;
+}
+.login-container input[type=checkbox]
+{
+    width:15px;
+    height:15px;
+}
+.login-container button{
+    background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin-left:110px;
+  border:2 px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 40%;
+}
+button:hover{
+    background-color:rgb(66, 66, 231);
+    color:white;
+    text-decoration: underline;
+    
+}
+button:active{
+    cursor:progress;
+}
+a:active{
+    cursor:progress;
+}
+a:hover{
+    font-size: 130%;
+}
+a {
+    display: inline-block;
+    margin-right: 10px; 
+  }
+  
+
+
+.lang{
+    display:flex;
+    margin-left: 90px;
+}
+
